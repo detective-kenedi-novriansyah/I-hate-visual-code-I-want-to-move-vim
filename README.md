@@ -1,6 +1,6 @@
 ## KND-NEWBIE - Kenedi Novriansyah
 
-## NVIM
+## NVIM Auto Complete
 
 #### Youtube https://www.youtube.com/channel/UCiAGAKn6VGst6zLMif9_3rQ?view_as=subscriber
 
