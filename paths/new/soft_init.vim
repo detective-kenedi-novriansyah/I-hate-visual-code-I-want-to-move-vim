@@ -14,7 +14,7 @@ source $HOME/.config/nvim/plugin/emment.vim
 source $HOME/.config/nvim/plugin/codi.vim
 source $HOME/.config/nvim/plugin/xtabline.vim
 source $HOME/.config/nvim/plugin/undotree.vim
-source $HOME/.config/nvim/tagalong/plugin/tagalong.vim
+source $HOME/.config/nvim/ltglong/plugin/tagalong.vim
 source $HOME/.config/nvim/plugin/smooth.vim
 source $HOME/.config/nvim/plugin/gist.vim
 source $HOME/.config/nvim/new-plugin/markdown-preview.vim
