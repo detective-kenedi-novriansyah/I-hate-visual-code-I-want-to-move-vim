@@ -17,3 +17,6 @@ source $HOME/.config/nvim/tmux/plugin/tmuxline.vim
 source $HOME/.config/nvim/gundo/plugin/gundo.vim
 source $HOME/.config/nvim/new-plugin/signify.vim
 source $HOME/.config/nvim/unite/plugin/unite.vim
+source $HOME/.config/nvim/new-plugin/tailwindcss.vim
+source $HOME/.config/nvim/new-plugin/coc-jedi.vim
+source $HOME/.config/nvim/new-plugin/lsp-cxx-highlight.vim

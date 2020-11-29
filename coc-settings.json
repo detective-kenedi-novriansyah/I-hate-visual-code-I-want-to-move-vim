@@ -6,5 +6,110 @@
       "trace.server": "verbose",
       "filetypes": ["go"]
     }
-  }
+  },
+  "jedi.enable": true,
+  "jedi.startupMessage": true,
+  "jedi.markupKindPreferred": "plaintext",
+  "jedi.trace.server": true,
+  "jedi.jediSettings.autoImportModules": [],
+  "jedi.executable.command": "jedi-language-server",
+  "jedi.executable.args": [],
+  "jedi.completion.disableSnippets": false,
+  "jedi.diagnostics.enable": true,
+  "jedi.diagnostics.didOpen": true,
+  "jedi.diagnostics.didChange": true,
+  "jedi.diagnostics.didSave": true,
+  "jedi.workspace.extraPaths": [],
+  "jedi.jediSettings.autoImportModules": ["numpy", "pandas"],
+  "jedi.workspace.extraPaths": ["funky"],
+
+  "diagnostic-languageserver.filetypes": {
+    "python": "pylint"
+  },
+  "diagnostic-languageserver.linters": {
+    "pylint": {
+      "sourceName": "pylint",
+      "command": "pylint",
+      "args": [
+        "--output-format",
+        "text",
+        "--score",
+        "no",
+        "--msg-template",
+        "'{line}:{column}:{category}:{msg} ({msg_id}:{symbol})'",
+        "%file"
+      ],
+      "formatPattern": [
+        "^(\\d+?):(\\d+?):([a-z]+?):(.*)$",
+        {
+          "line": 1,
+          "column": 2,
+          "security": 3,
+          "message": 4
+        }
+      ],
+      "rootPatterns": [".git", "pyproject.toml", "setup.py"],
+      "securities": {
+        "informational": "hint",
+        "refactor": "info",
+        "convention": "info",
+        "warning": "warning",
+        "error": "error",
+        "fatal": "error"
+      },
+      "offsetColumn": 1,
+      "formatLines": 1
+    }
+  },
+  "coc.preferences.formatOnSaveFiletypes": ["*"],
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.cssLanguages": [
+    "css",
+    "less",
+    "postcss",
+    "sass",
+    "scss",
+    "stylus",
+    "vue"
+  ],
+  "tailwindCSS.jsLanguages": [
+    "javascript",
+    "javascriptreact",
+    "reason",
+    "typescriptreact"
+  ],
+  "tailwindCSS.htmlLanguages": [
+    "blade",
+    "edge",
+    "eelixir",
+    "ejs",
+    "elixir",
+    "elm",
+    "erb",
+    "eruby",
+    "haml",
+    "handlebars",
+    "htmldjango",
+    "html",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "html.twig",
+    "jade",
+    "leaf",
+    "markdown",
+    "njk",
+    "nunjucks",
+    "php",
+    "razor",
+    "slim",
+    "svelte",
+    "twig",
+    "vue"
+  ],
+  "rust-client.disableRustup": true,
+  "rust-client.revealOutputChannelOn": ["info", "warn", "error"],
+  "clangd.enabled": true,
+  "clangd.path": "clangd",
+  "clangd.semanticHighlighting": true,
+  "clangd.serverCompletionRanking": true
 }

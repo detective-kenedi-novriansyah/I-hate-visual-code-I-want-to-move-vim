@@ -1,11 +1,13 @@
-## <KND-NEWBIE/> (Kenedi Novriansyah)
+## KND-NEWBIE - Kenedi Novriansyah
+
 ## NVIM
+
 #### Youtube https://www.youtube.com/channel/UCiAGAKn6VGst6zLMif9_3rQ?view_as=subscriber
 
 ### Configure File
 
-
 #### [x] Tmux
+
 ```
 - mkdir autoload/tmuxline
 - mkdir autoload/themes
@@ -16,6 +18,7 @@
 ```
 
 #### [x] Gundo
+
 ```
 - cp gundo/autoload/*.* autoload
 ```
@@ -29,3 +32,13 @@
 - cp unite/autoload/unite/*.vim ~/.config/nvim/autoload/unite
 ```
 
+#### [x] Installer Rust Recommended
+
+```
+- curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+Open terminal
+:PlugInstall
+
+Happy Hacking
