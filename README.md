@@ -17,7 +17,7 @@
 
 #### [x] Gundo
 ```
-cp gundo/autoload/*.* autoload
+- cp gundo/autoload/*.* autoload
 ```
 
 #### [x] Unite
