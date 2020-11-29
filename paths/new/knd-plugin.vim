@@ -20,3 +20,4 @@ source $HOME/.config/nvim/unite/plugin/unite.vim
 source $HOME/.config/nvim/new-plugin/tailwindcss.vim
 source $HOME/.config/nvim/new-plugin/coc-jedi.vim
 source $HOME/.config/nvim/new-plugin/lsp-cxx-highlight.vim
+source $HOME/.config/nvim/new-plugin/lsp-config.vim

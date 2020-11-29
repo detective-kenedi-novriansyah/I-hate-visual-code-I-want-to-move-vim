@@ -18,5 +18,14 @@ if !empty(glob("~/.config/nvim/paths/knd-ftplugin.vim"))
 	source $HOME/.config/nvim/paths/knd-ftplugin.vim
 endif
 
+" if !empty(glob("~/.config/nvim/paths/knd-colorschema.vim"))
+" 	source $HOME/.config/nvim/paths/knd-colorschema.vim
+" endif
+
+" colors schema
+
+Plug 'mushanyoung/vim-windflower'
+
 call plug#end()
 
+colorscheme windflower
