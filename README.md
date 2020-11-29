@@ -76,6 +76,8 @@ Installer RVM Requirements
 - echo "source $HOME/.rvm/scripts/rvm" >> ~/.zshrc
 ```
 
+Besides macosx sorry to find yourself ^ \_ ^
+
 #### Open terminal
 
 Automatic Install Plugin
