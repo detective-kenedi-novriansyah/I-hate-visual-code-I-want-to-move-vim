@@ -29,3 +29,10 @@ Plug 'mushanyoung/vim-windflower'
 call plug#end()
 
 colorscheme windflower
+
+let g:python_host_prog  = '/usr/bin/python'
+let g:python3_host_prog = '/Library/Frameworks/Python.framework/Versions/3.9/bin/python3'
+
+let g:node_host_prog = '/usr/local/bin/neovim-node-host'
+
+let g:ruby_host_prog = 'rvm system do neovim-ruby-host'
