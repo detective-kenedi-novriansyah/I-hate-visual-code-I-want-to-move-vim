@@ -10,3 +10,10 @@ source $HOME/.config/nvim/new-plugin/nvim-blame-line.vim
 source $HOME/.config/nvim/new-plugin/multi-cursor.vim
 source $HOME/.config/nvim/new-plugin/vetur.vim
 "source $HOME/.config/nvim/syntax/functions.vim
+source $HOME/.config/nvim/scapel/plugin/scalpel.vim
+source $HOME/.config/nvim/new-plugin/airline.vim
+source $HOME/.config/nvim/new-plugin/bufmru.vim
+source $HOME/.config/nvim/tmux/plugin/tmuxline.vim
+source $HOME/.config/nvim/gundo/plugin/gundo.vim
+source $HOME/.config/nvim/new-plugin/signify.vim
+source $HOME/.config/nvim/unite/plugin/unite.vim
