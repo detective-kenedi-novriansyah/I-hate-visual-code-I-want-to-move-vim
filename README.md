@@ -39,6 +39,17 @@
 ```
 
 Open terminal
-:PlugInstall
+
+Automatic Install Plugin
+
+```
+command vim +PlugInstall +qall
+```
+
+```
+Error E5105: Error while calling lua chunk: ....configure/nvim/autoload/nvim-lsp/lua/lspconfig/util.lua:11: attempt to index local 'lsp' (a nil value)
+```
+
+bad its okey not problem
 
 Happy Hacking
