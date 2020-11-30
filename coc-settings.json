@@ -111,5 +111,22 @@
   "clangd.enabled": true,
   "clangd.path": "clangd",
   "clangd.semanticHighlighting": true,
-  "clangd.serverCompletionRanking": true
+  "clangd.serverCompletionRanking": true,
+  "vetur.useWorkspaceDependencies": false,
+  "vetur.completion.autoImport": true,
+  "vetur.completion.useScaffoldSnippets": true,
+  "vetur.completion.tagCasing": ["intial", "kebab"],
+  "vetur.validation.template": true,
+  "vetur.validation.templateProps": true,
+  "vetur.validation.interpolation": true,
+  "vetur.format.defaultFormatter.html": [
+    "none",
+    "prettyhtml",
+    "js-beautify-html",
+    "prettier"
+  ],
+  "vetur.format.enable": true,
+  "vetur.validation.script": true,
+  "vetur.validation.style": true,
+  "vetur.trace.server": "verbose"
 }
