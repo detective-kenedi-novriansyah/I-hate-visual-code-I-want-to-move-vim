@@ -28,11 +28,19 @@ Plug 'mushanyoung/vim-windflower'
 
 call plug#end()
 
+function! s:env(var) abort
+  return exists('*DotenvGet') ? DotenvGet(a:var) : eval('$'.a:var)
+endfunction
+
+function! s:expand(expr) abort
+  return exists('*DotenvExpand') ? DotenvExpand(a:expr) : expand(a:expr)
+endfunction
+
+
 colorscheme windflower
 
-let g:python_host_prog  = '/usr/bin/python'
-let g:python3_host_prog = '/Library/Frameworks/Python.framework/Versions/3.9/bin/python3'
+let g:python_host_prog = s:env('python')
+let g:python3_host_prog = s:env('python3')
+let g:node_host_prog = s:env('node')
+let g:ruby_host_prog = s:env('ruby')
 
-let g:node_host_prog = '/usr/local/bin/neovim-node-host'
-
-let g:ruby_host_prog = 'rvm system do neovim-ruby-host'

@@ -21,3 +21,4 @@ source $HOME/.config/nvim/new-plugin/tailwindcss.vim
 source $HOME/.config/nvim/new-plugin/coc-jedi.vim
 source $HOME/.config/nvim/new-plugin/lsp-cxx-highlight.vim
 source $HOME/.config/nvim/new-plugin/lsp-config.vim
+source $HOME/.config/nvim/dotenv/plugin/dotenv.vim
