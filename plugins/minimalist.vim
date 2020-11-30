@@ -45,7 +45,7 @@ Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
 autocmd! User goyo.vim echom 'Goyo is now loaded!'
 
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
-Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
+" Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
 
 
 
